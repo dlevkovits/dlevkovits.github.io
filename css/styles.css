@@ -71,6 +71,33 @@ h6 {
       margin-bottom: 0.3em;
 }
 
+.overlay {  
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  opacity:0;
+  height: 100%;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+
+#button_restaurants:hover .overlay {
+font-family:Roboto;
+ font-weight:900;
+ color:rgba(255,255,255,.85);
+ font-size:40px;
+ opacity:1;
+}
+
+#plus       {  
+font-family:Helvetica;
+ font-weight:900;
+ color:rgba(255,255,255,.85);
+ font-size:96px;
+}
+
+
+
 
 #page-header {
   width: 100%;
@@ -264,7 +291,7 @@ li {
 	font-family: Roboto;
 	font-size: 15px;
 	text-align: center;
-	padding: 10px;
+	padding: 0px;
   background-image:url(../images/JacksonHeights_restaurants_samudra.jpg);
   background-repeat:no-repeat;
   background-size: center center;
@@ -448,21 +475,6 @@ footer p {
    letter-spacing: 1px;
    margin: 5px;
 }
-
-.overlay    {  background:rgba(0,0,0,.75);
-               text-align:center;
-               padding:45px 0 66px 0;
-               opacity:0;
-               -webkit-transition: opacity .25s ease;
--moz-transition: opacity .25s ease;}
-
-.box:hover #overlay {
-               opacity:1;}
-
-.plus       {  font-family:Helvetica;
-               font-weight:900;
-               color:rgba(255,255,255,.85);
-               font-size:96px;}
 
 
 
