@@ -1,0 +1,735 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+h1 {
+        font-family: 'Lato', serif;
+        font-size: 80px;
+        text-align: center;
+        color: white;
+         margin: 0px;
+}
+
+
+h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: lighter; 
+        font-size: 40px;
+        color: #e9c213;
+        text-align: center;
+        margin-top: 50px;
+}
+
+h3 {
+	     font-family: "Open Sans";
+       font-weight: 300;
+      font-style: italic;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        color: white;    
+        border-style: solid; 
+        border-width: thin;
+        border-left: 0px;
+        border-right: 0px;
+        margin: 20px auto;
+        display: inline-block;
+        padding: 12px;
+}
+
+h4 {
+	    font-family: 'Lato', serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+
+}
+
+
+h5 {
+	  	font-family: 'Lato', serif;
+	  	color: black;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bolder;
+      text-align: left;
+      letter-spacing: 6px;
+      margin-bottom: 1%;
+}
+
+h6 {
+      font-family: 'Lato', serif;
+      color: black;
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bolder;
+      text-align: left;
+      margin-bottom: 0.3em;
+}
+
+
+#page-header {
+  width: 100%;
+  background: #e9c213;
+  color: white;
+  overflow: hidden;
+  padding: 0 4%;
+}
+
+/*#page-header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
+}*/
+
+#page-header a {
+  color: inherit;
+  text-decoration: none;
+}
+#page-header h1 {
+  font-family: 'Lato', serif;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-style: black;
+  text-align: left;
+  margin: 19px 10px;
+  float: left;
+}
+
+#page-header nav {
+  float: right;
+}
+
+#page-header nav li {
+  float: left;
+  margin: 10px 5px;
+  font-family: 'Lato', serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#page-header nav a {
+  display: block;
+  padding: 9px 5px;
+}
+
+#page-header nav li a:hover {
+  color: yellow;
+}
+
+#page-header nav li.active a {
+  background: #666;
+}
+
+
+p {
+		font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 130%
+}
+
+.stars {
+    font-size: 120px;
+    text-align: center;
+    color: #e9c213;
+    margin: 0px;
+    padding: 0px;
+    line-height: 50px;
+    
+}
+
+.button {
+    background-color: #e9c213; /* yellow */
+    border: none;
+    color: black;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.button-small {
+  background-color: #e9c213; /* yellow */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.center {
+	text-align: center;
+}
+
+ul {
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+	margin: 1.5em auto;
+}
+
+
+
+.banner {
+	background: url(../images/JacksonHeights_home2.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+/*	padding: 20%;*/
+	height: 44em;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1.5em;
+  border-left: 0px;
+  border-style: solid;
+  border-color: #e9c213;
+  text-align: center;
+}
+
+.banner_restaurant {
+  background: url(../images/JacksonHeights_restaurant_top.jpg) repeat-y;
+ /* background-size: cover;
+  overflow: auto;*/
+/*  padding: 20%;*/
+  height: 25em;
+/*  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1.5em;
+  border-left: 0px;
+  border-style: solid;
+  border-color: #e9c213;*/
+/*  text-align: center;*/
+}
+
+
+.map {
+	background: url(../images/jacksonheights-map.gif) center center no-repeat; 
+	width: 100%;
+	background-size: cover;
+	overflow: hidden;
+	height: auto;
+	
+}
+
+.map-content {
+	width: 35%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.content {
+	width: 80%;
+	margin: 25px auto;
+	text-align: center;
+	height: auto;
+	padding: 0px;
+}
+
+
+#button_restaurants {
+	width: 30%;
+  height: 290px;
+	margin: 1%;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+  background-image:url(../images/JacksonHeights_restaurants_samudra.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_coffee {
+  width: 30%;
+  height: 290px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_coffee_2.jpg);
+  background-repeat:no-repeat;
+   background-size: center center;
+
+}
+
+#button_shopping {
+  width: 30%;
+  height: 290px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_shops_2.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_architecture {
+  width: 30%;
+  height: 290px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_architecture_dunolly.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_cuture {
+  width: 30%;
+  height: 290px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_culture2.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_park {
+  width: 30%;
+  height: 290px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_greenmarket.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+
+.blog {
+  width: 100%;
+  text-align: left;
+  height: auto;
+  padding: 3%;
+  overflow: auto;
+}
+
+.blog p {
+	text-align: left;
+  font-size: 1em;
+  float: left;
+  clear: right;
+  display: inline-block;
+}
+
+#image_blog {
+	float: left;
+  width: 30%;
+  height: auto;
+  margin-right: 2%;
+}
+
+.blog h4 {
+	font-family: 'Lato', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+   text-align: left;
+  margin-bottom: 15px;
+  float: left;
+  clear: right;
+  display: inline-block;
+}
+
+.divider {
+	border-style: solid; 
+    border-width: thin;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: #ccc;
+}
+
+.clearfix {
+    
+}
+
+
+.wrapper {
+	width: 100%;
+	text-align: left; 
+  border: solid; 
+  margin: auto;
+
+}
+
+#instagram {
+	width: 170px;
+	height: 170px;
+	margin: 7px;
+	background-color: #e9c213;
+	text-align: center;
+	padding: 50px;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  text-align: left;
+  height: 200px;
+  padding: 5%;
+
+}
+
+.columndiv {
+  width: 30%;
+  float: left;
+  overflow: auto;
+}
+
+/*.blogdiv {
+  width: 100%;
+  float: left;
+  overflow: auto;
+}*/
+
+
+footer h1 {
+   font-family: 'Lato', serif;
+   font-size: 0.875em;
+   text-align: left;
+   font-weight: bold;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 5px;
+}
+
+footer p {
+   font-family: 'Lato', serif;
+   font-size: 0.875em;
+   text-align: left;
+   font-weight: normal;
+   color: white;
+   letter-spacing: 1px;
+   margin: 5px;
+}
+
+.overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+.box:hover #overlay {
+               opacity:1;}
+
+.plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:96px;}
+
+
+
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e9c213;
+  opacity: 0.9;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.hvr-bubble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  background-color: #e9c213; /* yellow */
+    border: none;
+    color: black;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    opacity: 0.75;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;   
+}
+
+.hvr-bubble-bottom:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: #e9c213 transparent transparent transparent;
+}
+.hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+#hamburgerMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+body{
+  font-size: 16px;
+}
+
+nav{
+  width:100%;
+}
+
+#hamburgerMenu {
+  display: block;
+  float: right;
+  position: relative;
+  top: -40px;
+  padding: 0px;
+}
+
+.hamburger-items {
+  height: 340px;
+  text-align: right;
+  transition: height 1s;
+}
+
+.hamburger-items.close {
+  height: 0;
+}
+
+.hamburger-items li {
+  display: block;
+  float: left;
+}
+
+.lines {
+  cursor: pointer;
+  float: right;
+}
+
+.line {
+  background: black;
+  height: 4px;
+  width: 40px;
+  margin: 4px 0;
+  border-radius: 4px;p
+}
+
+#responsive-nav {
+  /*display: none;*/
+}
+
+#responsive-nav.show {
+  /*display: block;*/
+}
+
+/*#page-header nav li:first-child{
+  float:right;
+  display: block;
+  cursor: pointer;
+}*/
+
+#page-header nav li{
+float: none;
+}
+
+#page-header nav #responsive-nav {
+display:block;
+position: absolute;
+top:.25em;
+right:.5em;
+}
+
+ul{
+height:0;
+transition:height 1s;
+overflow: hidden;
+}
+
+.map-content {
+  width: 80%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+#button_restaurants {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_restaurants_samudra.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+}
+
+#button_coffee {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_coffee_2.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_shopping {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_shops_2.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_architecture {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_architecture_dunolly.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_cuture {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_culture2.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+#button_park {
+  width: 80%;
+  height: 200px;
+  margin: 1%;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-image:url(../images/JacksonHeights_greenmarket.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+
+}
+
+}
+
+
+
