@@ -258,6 +258,7 @@ li {
 .banner_restaurant {
   background: url(../images/JacksonHeights_restaurant_top.jpg) repeat-y;
   background-size: cover;
+  cursor: pointer;
   overflow: auto;
   padding: 20%;
   height: 25em;
@@ -563,12 +564,13 @@ nav{
   height: 305px;
   text-align: right;
   transition: height 1s;
-  margin-top: 35px;
+  margin-top: 30px;
 
 }
 
 .hamburger-items.close {
-  height: 0;
+  height: 0px;
+  overflow: hidden;
 }
 
 .hamburger-items li {
