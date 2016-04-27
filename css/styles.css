@@ -58,7 +58,6 @@ h5 {
       text-align: left;
       letter-spacing: 6px;
       margin-bottom: 1%;
-      float: left;
 }
 
 h6 {
@@ -402,30 +401,38 @@ li {
 }
 
 .blog {
-  width: 100%;
-  text-align: left;
-  height: auto;
-  padding: 3%;
-  overflow: auto;
-  float: left;
+  float:left;
+  margin-left:2%;
+  margin-right:2%;
+  clear: right;
 }
 
 
-.blog p {
+.blog_content p {
   font-size: 1em;
   clear: right;
   text-align: left;
-  display: inline-block;
-  float: left;
-  display: inline-block;
+  width: 90%;
 }
 
 #image_blog {
-  width: 30%;
+  width: 90%;
   height: auto;
   margin-right: 2%;
   display: inline-block;
   float: left;
+  overflow: hidden;
+}
+
+.blogspace {
+  margin-right: auto;
+   margin-left: auto;
+  margin-bottom: 3%;
+   margin-top: 3%;
+  clear: right;
+  width: 90%;
+  text-align: center;
+
 }
 
 .blog h4 {
