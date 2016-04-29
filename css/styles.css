@@ -199,7 +199,6 @@ p {
     margin: 0px;
     padding: 0px;
     line-height: 50px;
-    
 }
 
 .button {
@@ -276,19 +275,15 @@ li {
 }
 
 .banner_restaurant {
-  background: url(../images/JacksonHeights_restaurant_top.jpg) repeat-y;
+  background-color: white;
+  width: 100%;
   background-size: cover;
-  cursor: pointer;
-  overflow: auto;
-  padding: 20%;
-  height: 25em;
-  border-top: 0px;
-  border-right: 0px;
-  border-bottom: 1.5em;
-  border-left: 0px;
-  border-style: solid;
-  border-color: #e9c213;
-  text-align: center;
+  color: #ccc;
+  overflow: hidden;
+  height: auto; 
+  font-family: 'Lato', serif;
+  font-size: 60px;
+  text-align: left;
 }
 
 
@@ -308,11 +303,20 @@ li {
 }
 
 .content {
-	width: 80%;
+	width: 90%;
 	margin: 25px auto;
 	text-align: center;
 	height: auto;
 	padding: 0px;
+  overflow: auto;
+}
+
+
+.contentblog {
+  width: 80%;
+  margin: 25px auto;
+  height: auto;
+  padding: 0px;
 }
 
 
@@ -400,38 +404,31 @@ li {
 
 }
 
-.blog {
-  float:left;
-  margin-left:2%;
-  margin-right:2%;
-  clear: right;
-}
-
 
 .blog_content p {
   font-size: 1em;
   clear: right;
   text-align: left;
+  line-height: 1.8em;
   width: 90%;
 }
 
 #image_blog {
-  width: 90%;
+  width: 35%;
+  min-width: 250px;
   height: auto;
   margin-right: 2%;
   display: inline-block;
   float: left;
   overflow: hidden;
+  clear: right;
 }
 
 .blogspace {
-  margin-right: auto;
-   margin-left: auto;
-  margin-bottom: 3%;
-   margin-top: 3%;
-  clear: right;
-  width: 90%;
+  padding: 3%;
   text-align: center;
+  margin-bottom: 1%;
+  float: left;
 
 }
 
@@ -458,9 +455,6 @@ li {
 .wrapper {
 	width: 100%;
 	text-align: left; 
-  border: solid; 
-  margin: auto;
-
 }
 
 #instagram {
@@ -478,7 +472,6 @@ footer {
   text-align: left;
   height: 200px;
   padding: 5%;
-
 }
 
 .columndiv {
@@ -486,6 +479,31 @@ footer {
   float: left;
   overflow: auto;
 }
+
+.columndiv2 {
+  width: 85%;
+  float: left;
+  overflow: auto;
+  padding: 0px;
+}
+
+.columndiv3 {
+  width: 15%;
+  float: left;
+  margin-top: 2.5%;
+  overflow: auto;
+  min-width: 150px;
+}
+
+.advertisement {
+  width: 90%;
+  height: 200px;
+  background-color: #ccc;
+  padding: 2%;
+  margin-bottom: 10%;;
+
+}
+
 
 
 footer h1 {
@@ -511,7 +529,7 @@ footer p {
 
 
 .hvr-bubble-bottom {
-  display: inline-block;
+  image_blodisplay: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -554,6 +572,7 @@ footer p {
   border-width: 10px 10px 0 10px;
   border-color: #e9c213 transparent transparent transparent;
 }
+
 .hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
@@ -725,6 +744,28 @@ overflow: hidden;
   background-repeat:no-repeat;
   background-size:cover;
 
+}
+
+.columndiv3 {
+  width: 100%;
+  float: left;
+  margin-top: 2.5%;
+  overflow: auto;
+  min-width: 150px;  
+}
+
+.columndiv2 {
+  width: 100%;
+}
+
+.advertisement {
+  width: 30%;
+  height: 250px;
+  background-color: #ccc;
+  padding: 2%;
+  margin-bottom: 10%;
+  float: left;
+  margin-left: 2%;
 }
 
 
