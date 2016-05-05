@@ -50,30 +50,62 @@ h4 {
 
 
 h5 {
-	  	font-family: 'Lato', serif;
-	  	color: black;
-      text-transform: uppercase;
-      font-size: 15px;
-      font-weight: bolder;
-      text-align: left;
-      letter-spacing: 6px;
-      margin-bottom: 1%;
+	background:rgba(233,194,19,.85);
+  text-align:left;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  padding: 0.2em;
+
 }
 
 h6 {
-      font-family: 'Lato', serif;
+      font-family: "Open Sans";
+      font-weight: 300;
       color: black;
       text-transform: uppercase;
-      font-size: 25px;
-      font-weight: bolder;
+      font-size: 2em;
+      font-weight: lighter;
       text-align: left;
-      margin-bottom: 0.3em;
 }
+
+.address p {
+  text-align:left;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 0.8em;
+  display: inline-block;
+  font-style: italic;
+  color: #333;
+}
+
+.address p:last-child {
+  margin-bottom: 1em;
+}
+
+.sections_title {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: italic;
+  color: #333;
+  width: 100%;
+  height: auto;
+  font-size: 4.500em;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin-top: 0.3em;
+  flex: 1 0 100%;
+}
+
 
 .overlay {  
   background:rgba(233,194,19,.85);
   text-align:center;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.4em;
@@ -405,32 +437,42 @@ li {
 }
 
 
+.blogspace  {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flxbox;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+.image_blog  {
+flex: 1 0 0px;
+width: 100%;
+height: auto;
+padding-right: 1em;
+}
+
+
+.blog_content {
+ flex: 1 0 350px;
+ padding-right: 1em;
+}
+
 .blog_content p {
-  font-size: 1em;
-  clear: right;
-  text-align: left;
-  line-height: 1.8em;
-  width: 90%;
+ font-family: "Open Sans";
+ font-weight: 300;
+ font-size: 1em;
+ line-height: 1.5em;
+ text-align: left;
+  color: gray;  
 }
 
-#image_blog {
-  width: 35%;
-  min-width: 250px;
-  height: auto;
-  margin-right: 2%;
-  display: inline-block;
-  float: left;
-  overflow: hidden;
-  clear: right;
-}
-
-.blogspace {
-  padding: 3%;
-  text-align: center;
-  margin-bottom: 1%;
-  float: left;
-
-}
 
 .blog h4 {
 	font-family: 'Lato', serif;
@@ -768,8 +810,12 @@ overflow: hidden;
   margin-left: 2%;
 }
 
+@media only screen and (max-width: 550px) {
 
+.sections_title {
+  font-size: 2.500em;
 
+}
 
 }
 
