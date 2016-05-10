@@ -351,7 +351,6 @@ li {
 }
 
 .example {
-  border: 1px solid gray;
   padding: 20px;
   margin: 10px 0 50px;
   display: -webkit-flex;
@@ -361,6 +360,8 @@ li {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 
 }
 
@@ -370,7 +371,20 @@ li {
           justify-content: space-around;
 }
 
-.test-box {
+.restaurant-box {
+  width: 320px;
+  height: 250px;
+  background-image:url(../images/JacksonHeights_restaurants_dosaDelight.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+  min-width: 200px;
+  margin: 0.5em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.architecture-box {
   width: 320px;
   height: 250px;
   background-image:url(../images/JacksonHeights_architecture_dunolly.jpg);
@@ -382,6 +396,7 @@ li {
   font-size: 15px;
   text-align: center;
 }
+
 
 
 
