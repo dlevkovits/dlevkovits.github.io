@@ -117,11 +117,10 @@ h6 {
   a:hover: yellow;
   opacity:0;
   color: white;
-  width:100%;
+  width: 100%;
   height: 100%;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
-  float: left;
   margin:0px;
   padding: 50px;
   transtition:all 0.3s ease;
@@ -334,7 +333,7 @@ li {
 	text-align: center;
 }
 
-.content {
+/*.content {
 	width: 90%;
 	margin: 25px auto;
 	text-align: center;
@@ -342,7 +341,7 @@ li {
 	padding: 0px;
   overflow: auto;
 }
-
+*/
 
 .contentblog {
   width: 80%;
@@ -351,90 +350,39 @@ li {
   padding: 0px;
 }
 
-
-#button_restaurants {
-	width: 30%;
-  height: 290px;
-	margin: 1%;
-	font-family: Roboto;
-	font-size: 15px;
-	text-align: center;
-	padding: 10px;
-  background-image:url(../images/JacksonHeights_restaurants_samudra.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-
-}
-
-#button_coffee {
-  width: 30%;
-  height: 290px;
-  margin: 1%;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-  background-image:url(../images/JacksonHeights_coffee_2.jpg);
-  background-repeat:no-repeat;
-   background-size: center center;
+.example {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px 0 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
 
-#button_shopping {
-  width: 30%;
-  height: 290px;
-  margin: 1%;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-  background-image:url(../images/JacksonHeights_shops_2.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-
+.space-around {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
 }
 
-#button_architecture {
-  width: 30%;
-  height: 290px;
-  margin: 1%;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
+.test-box {
+  width: 320px;
+  height: 250px;
   background-image:url(../images/JacksonHeights_architecture_dunolly.jpg);
   background-repeat:no-repeat;
   background-size: center center;
-
-}
-
-#button_cuture {
-  width: 30%;
-  height: 290px;
-  margin: 1%;
+  min-width: 200px;
+  margin: 0.5em;
   font-family: Roboto;
   font-size: 15px;
   text-align: center;
-  padding: 10px;
-  background-image:url(../images/JacksonHeights_culture2.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-
 }
 
-#button_park {
-  width: 30%;
-  height: 290px;
-  margin: 1%;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-  background-image:url(../images/JacksonHeights_greenmarket.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-
-}
 
 
 .blogspace  {
@@ -451,6 +399,24 @@ li {
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flxbox;
+  display: flex;
+  margin: 1em;
+  border: solid;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  -webkit-flex;
+  -ms-flxbox;
+  flex: 1 0 0px;;
 }
 
 .image_blog  {
