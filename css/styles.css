@@ -333,7 +333,7 @@ li {
 	text-align: center;
 }
 
-/*.content {
+.content {
 	width: 90%;
 	margin: 25px auto;
 	text-align: center;
@@ -341,7 +341,7 @@ li {
 	padding: 0px;
   overflow: auto;
 }
-*/
+
 
 .contentblog {
   width: 80%;
@@ -351,8 +351,7 @@ li {
 }
 
 .example {
-  padding: 20px;
-  margin: 10px 0 50px;
+  padding: 30px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
