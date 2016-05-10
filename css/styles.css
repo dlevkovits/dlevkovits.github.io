@@ -374,7 +374,7 @@ li {
 .restaurant-box {
   width: 320px;
   height: 250px;
-  background-image:url(../images/JacksonHeights_restaurants_dosaDelight.jpg);
+  background-image:url(../images/JacksonHeights_restaurants-box.jpg);
   background-repeat:no-repeat;
   background-size: center center;
   min-width: 200px;
@@ -384,10 +384,64 @@ li {
   text-align: center;
 }
 
+.coffee-box {
+  width: 320px;
+  height: 250px;
+  background-image:url(../images/JacksonHeights_coffee-box.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+  min-width: 200px;
+  margin: 0.5em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.shops-box {
+  width: 320px;
+  height: 250px;
+  background-image:url(../images/JacksonHeights_shops-box.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+  min-width: 200px;
+  margin: 0.5em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.culture-box {
+  width: 320px;
+  height: 250px;
+  background-image:url(../images/JacksonHeights_culture-box.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+  min-width: 200px;
+  margin: 0.5em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
 .architecture-box {
   width: 320px;
   height: 250px;
-  background-image:url(../images/JacksonHeights_architecture_dunolly.jpg);
+  background-image:url(../images/JacksonHeights_architecture-box.jpg);
+  background-repeat:no-repeat;
+  background-size: center center;
+  min-width: 200px;
+  margin: 0.5em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.park-box {
+  width: 320px;
+  height: 250px;
+  background-image:url(../images/JacksonHeights_park-box.jpg);
   background-repeat:no-repeat;
   background-size: center center;
   min-width: 200px;
