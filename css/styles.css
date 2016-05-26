@@ -174,21 +174,6 @@ a:active {
   cursor: pointer;
 }*/
 
-#page-header a {
-  color: inherit;
-  text-decoration: none;
-}
-#page-header h1 {
-  font-family: 'Lato', serif;
-  color: black;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-style: black;
-  text-align: left;
-  margin: 19px 10px;
-  float: left;
-}
-
 #page-header nav {
   float: right;
 }
@@ -350,18 +335,14 @@ li {
   padding: 0px;
 }
 
-.example {
-  padding: 30px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
+#page-header h1{
+  position: absolute;
+  font-size: 16px;
+  padding:14px;
+}
 
+#page-header h1 a{
+  color:#000;
 }
 
 .space-around {
@@ -370,86 +351,108 @@ li {
           justify-content: space-around;
 }
 
-.restaurant-box {
-  width: 320px;
-  height: 250px;
+.boxes {
+  padding: 30px 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+
+.boxes .box {
+  width:320px;
+  height:250px;
+  background-repeat:no-repeat;
+  background-size: center center;
+  margin: 0.5em 0;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.boxes .box a .bubble {
+  background-color: rgba(233, 194, 19, 0.9);
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  padding: 0 10px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 62.5%;
+  height: 80%;
+  left: 18.75%;
+  top: 10%;
+}
+
+.boxes .box a .bubble h3 {
+  margin: 0;
+}
+
+.boxes .box a .bubble {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+.boxes .box a:hover .bubble {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+
+}
+
+.vcenterer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box.restaurant {
   background-image:url(../images/JacksonHeights_restaurants-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
-.coffee-box {
-  width: 320px;
-  height: 250px;
+.box.coffee {
   background-image:url(../images/JacksonHeights_coffee-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
-.shops-box {
-  width: 320px;
-  height: 250px;
+.box.shops {
   background-image:url(../images/JacksonHeights_shops-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
-.culture-box {
-  width: 320px;
-  height: 250px;
+.box.culture {
   background-image:url(../images/JacksonHeights_culture-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
-
-
-.architecture-box {
-  width: 320px;
-  height: 250px;
+.box.architecture {
   background-image:url(../images/JacksonHeights_architecture-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
-.park-box {
-  width: 320px;
-  height: 250px;
+.box.park {
   background-image:url(../images/JacksonHeights_park-box.jpg);
-  background-repeat:no-repeat;
-  background-size: center center;
-  min-width: 200px;
-  margin: 0.5em;
-  font-family: Roboto;
-  font-size: 15px;
-  text-align: center;
 }
 
+.boxes .box a{
+  display: block;
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
 
 
 
@@ -467,6 +470,7 @@ li {
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .flex-container {
@@ -495,6 +499,47 @@ height: auto;
 padding: 1em;
 padding-top: 0px;
 }
+
+#container {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+/*  border: 1px lightgray solid;*/
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #999;
+}
+
+#container h2 {
+  text-align: center;
+}
+
+#container form {
+  margin: 30px 0px 80px;
+}
+
+#container form div {
+  margin-top: 10px;
+}
+
+#container form input[type='text'] {
+  font-size: 18px;
+  width: 300px
+}
+
+#container form textarea {
+  font-size: 18px;
+  font-family: 'Lato';
+  width: 300px;
+  height: 100px;
+}
+#container form label {
+  width: 150px;
+  display: inline-block;
+}
+
 
 
 .blog_content {
@@ -676,42 +721,51 @@ nav{
 
 #hamburgerMenu {
   display: block;
-  float: right;
   position: relative;
-  top: -40px;
-  padding: 0px;
 }
 
 .hamburger-items {
-  height: 305px;
+  height: 400px;
   text-align: right;
   transition: height 1s;
-  margin-top: 30px;
-
+  display: block;
+  margin:0;
+  padding:0;
+  list-style-type: none;
 }
 
 .hamburger-items.close {
-  height: 0px;
-  overflow: hidden;
+  height: 1px;
 }
 
 .hamburger-items li {
   display: block;
-  float: left;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
 
+.hamburger-items li a{
+  font-size:18px;
 }
 
 .lines {
   cursor: pointer;
-  float: right;
+  margin:10px;
 }
 
 .line {
   background: black;
   height: 4px;
   width: 40px;
-  margin: 4px 0;
+  margin: 4px 0 4px auto;
   border-radius: 4px;
+}
+
+
+#page-header nav{
+  padding:0;
+  margin:0;
 }
 
 
